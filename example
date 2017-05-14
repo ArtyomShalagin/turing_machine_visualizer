@@ -2,6 +2,7 @@ start: a
 accept: ac
 reject: rj
 blank: _
+1
 a _ -> b H >
 b _ -> c e >
 c _ -> d l >
