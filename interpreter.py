@@ -13,7 +13,6 @@ def gen(s, vars, repl_ind):
 
 def parse_string(s):
     groups = re.findall('\[(.*?)\]', s)
-    t = [elem for elem in groups[0].split(',')]
     groups = list(map(lambda group: [elem.strip() for elem in group.split(',')], groups))
     result = [s]
     for i in range(len(groups)):
